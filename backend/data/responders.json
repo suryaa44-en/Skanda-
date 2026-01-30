@@ -1,0 +1,42 @@
+[
+  {
+    "id": "resp-001",
+    "name": "Rajesh Kumar",
+    "username": "rajesh.kumar",
+    "status": "AVAILABLE",
+    "role": "medic",
+    "createdAt": "2026-01-25T10:00:00.000Z"
+  },
+  {
+    "id": "resp-002",
+    "name": "Priya Sharma",
+    "username": "priya.sharma",
+    "status": "AVAILABLE",
+    "role": "rescue",
+    "createdAt": "2026-01-25T10:05:00.000Z"
+  },
+  {
+    "id": "resp-003",
+    "name": "Amit Das",
+    "username": "amit.das",
+    "status": "AVAILABLE",
+    "role": "logistics",
+    "createdAt": "2026-01-25T10:10:00.000Z"
+  },
+  {
+    "id": "resp-004",
+    "name": "Meera Devi",
+    "username": "meera.devi",
+    "status": "AVAILABLE",
+    "role": "medic",
+    "createdAt": "2026-01-25T10:15:00.000Z"
+  },
+  {
+    "id": "resp-005",
+    "name": "Suresh Baruah",
+    "username": "suresh.baruah",
+    "status": "BUSY",
+    "role": "rescue",
+    "createdAt": "2026-01-25T10:20:00.000Z"
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "id": "bf90586b-5c7e-4414-a9da-44209494b3fa",
+    "missionId": "82a5f817-1874-43f6-909e-46edd1e3466b",
+    "responderId": "resp-001",
+    "description": "medical help",
+    "status": "ASSIGNED",
+    "createdAt": "2026-01-29T18:48:09.590Z"
+  },
+  {
+    "id": "6c2e4122-6245-4d95-b1d2-75e359b1559f",
+    "missionId": "82a5f817-1874-43f6-909e-46edd1e3466b",
+    "responderId": "resp-002",
+    "description": "rescue the people",
+    "status": "COMPLETED",
+    "createdAt": "2026-01-30T16:08:37.075Z"
+  }
+]

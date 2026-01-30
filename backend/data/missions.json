@@ -1,0 +1,18 @@
+[
+  {
+    "id": "82a5f817-1874-43f6-909e-46edd1e3466b",
+    "name": "Assam Flood Rescue",
+    "region": "Dibrugarh",
+    "disasterType": "Flood",
+    "status": "ACTIVE",
+    "createdAt": "2026-01-25T04:18:12.844Z"
+  },
+  {
+    "id": "bff83d5c-a221-4dd3-baf6-9bc3142b9b74",
+    "name": "Assam Flood Rescue",
+    "region": "Dibrugarh",
+    "disasterType": "Flood",
+    "status": "ACTIVE",
+    "createdAt": "2026-01-25T04:18:22.774Z"
+  }
+]

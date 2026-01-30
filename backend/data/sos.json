@@ -1,0 +1,22 @@
+[
+  {
+    "id": "a585bd0b-9fcb-4f22-ab9c-e093383bf220",
+    "responderId": "responder123",
+    "missionId": "unassigned",
+    "location": "Field location (offline capable)",
+    "status": "RECEIVED",
+    "deliveryMode": "ONLINE",
+    "acknowledged": true,
+    "createdAt": "2026-01-30T15:51:22.360Z"
+  },
+  {
+    "id": "3674ae84-ca67-4954-a4a2-960a0aa54694",
+    "responderId": "responder123",
+    "missionId": "unassigned",
+    "location": "Field location (offline capable)",
+    "status": "RECEIVED",
+    "deliveryMode": "SMS_FALLBACK",
+    "acknowledged": true,
+    "createdAt": "2026-01-30T15:52:18.767Z"
+  }
+]

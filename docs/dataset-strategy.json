@@ -1,0 +1,50 @@
+{
+  "title": "Drishti-NE Dataset Strategy (MVP)",
+  "version": "1.0",
+  "lastUpdated": "2026-01-29",
+  "intendedDatasets": [
+    {
+      "source": "NDMA (National Disaster Management Authority)",
+      "intendedUse": "Disaster event metadata, response guidelines",
+      "status": "Not ingested in MVP"
+    },
+    {
+      "source": "IMD (India Meteorological Department)",
+      "intendedUse": "Weather and hazard alerts",
+      "status": "Not ingested in MVP"
+    },
+    {
+      "source": "data.gov.in",
+      "intendedUse": "Open government datasets for disaster and geography",
+      "status": "Not ingested in MVP"
+    },
+    {
+      "source": "State disaster authorities",
+      "intendedUse": "Regional incident and resource data",
+      "status": "Not ingested in MVP"
+    }
+  ],
+  "mvpDataApproach": {
+    "syntheticData": true,
+    "description": "MVP uses synthetic and demo data only. No live ingestion from external APIs or government sources.",
+    "localDataFiles": [
+      "backend/data/missions.json",
+      "backend/data/tasks.json",
+      "backend/data/responders.json",
+      "backend/data/sos.json",
+      "backend/data/users.json"
+    ]
+  },
+  "ethicalConstraints": {
+    "noPersonalData": true,
+    "description": "No personal data (PII) is collected, stored, or processed. User data is limited to role and session for access control.",
+    "noSurveillance": true,
+    "noProfiling": true,
+    "minimalCollection": true
+  },
+  "futureProductionConsiderations": [
+    "Formal data-sharing agreements with NDMA/IMD/state authorities before any ingestion",
+    "Anonymization and aggregation for any external datasets",
+    "Data retention and deletion policy aligned with DPDP Act"
+  ]
+}

@@ -1,4 +1,4 @@
-# **Drishti-NE**
+# **SKANDA 44**
 
 ### *Offline-Resilient, AI-Assisted Disaster Response & Coordination Platform*
 
